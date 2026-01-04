@@ -25,6 +25,7 @@ How this project is different from jesec's version:
 Curious what it looks like? Do check out the [screenshots folder](screenshots#readme) but here is also a small sneak peak:
 
 ![Main](screenshots/Main.png)
+![Mobile Grid View](screenshots/Mobile%20Grid%20View%20-%20Main.png)
 
 # Getting started
 

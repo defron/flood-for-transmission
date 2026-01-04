@@ -17,3 +17,9 @@
 ![Settings - Peers](Settings%20-%20Peers.png)
 ![Settings - Network](Settings%20-%20Network.png)
 ![Settings - User interface](Settings%20-%20User%20interface.png)
+
+## Mobile Grid View
+![Mobile Grid View Demo Video](Mobile%20Grid%20View.avif)
+![Mobile Grid View - Main](Mobile%20Grid%20View%20-%20Main.png)
+![Mobile Grid View - Setting](Mobile%20Grid%20View%20-%20Setting.png)
+![Mobile Grid View - Column Settings](Mobile%20Grid%20View%20-%20Column%20Settings.png)
