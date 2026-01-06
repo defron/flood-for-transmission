@@ -23,6 +23,10 @@ function createPanelStore() {
       window.localStorage.setItem(PANEL_SHOWN_STORAGE_KEY, 'false');
       set(false);
     },
+    open: () => {
+      window.localStorage.setItem(PANEL_SHOWN_STORAGE_KEY, 'true');
+      set(true);
+    },
   };
 }
 export const panel = createPanelStore();
