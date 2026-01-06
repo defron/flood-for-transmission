@@ -116,12 +116,14 @@
     width: 46px;
   }
 
-  .button:hover {
-    background: rgba(51, 62, 74, 0.05);
-    box-shadow:
-      1px 0 rgba(51, 62, 74, 0.15),
-      -1px 0 rgba(51, 62, 74, 0.15);
-    fill: var(--color-top-bar-active);
+  @media (hover: hover) {
+    .button:hover {
+      background: rgba(51, 62, 74, 0.05);
+      box-shadow:
+        1px 0 rgba(51, 62, 74, 0.15),
+        -1px 0 rgba(51, 62, 74, 0.15);
+      fill: var(--color-top-bar-active);
+    }
   }
 
   .divider {

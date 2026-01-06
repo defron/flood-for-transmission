@@ -49,7 +49,9 @@
     on:click={handleClick}
   >
     {uiColumns.getColumnLabel(id)}
-    <span class="handle" use:resizeableTable={handleResize}></span>
+    {#if !$mobileView.grid || !isSmallScreen.current}
+      <span class="handle" use:resizeableTable={handleResize}></span>
+    {/if}
   </th>
 {/if}
 

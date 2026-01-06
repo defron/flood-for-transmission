@@ -142,6 +142,7 @@
 
 <div class="wrapper">
   <table
+    id="torrent-list"
     class="table"
     class:full-width={$mobileView.grid && isSmallScreen.current}
     style="--table-width: {$totalSize}px"
@@ -165,7 +166,7 @@
       {/each}
     </tbody>
   </table>
-  {#if !$modals}
+  {#if !$modals && !isSmallScreen.current}
     <TorrentDropzone />
   {/if}
 </div>

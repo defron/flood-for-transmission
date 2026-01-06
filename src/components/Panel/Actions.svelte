@@ -118,6 +118,15 @@
     transition: fill 0.25s;
   }
 
+  @media (max-width: 550px) {
+    .actions :global(.icon) {
+      padding: 5px;
+      height: 23px;
+      width: 23px;
+      margin-right: 5px;
+    }
+  }
+
   .actions :global(.icon):hover {
     fill: var(--color-active);
   }
