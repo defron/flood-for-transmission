@@ -4,17 +4,9 @@
   import Search from '~components/Search';
   import Filters from '~components/Filters';
   import DiskUsage from '~components/DiskUsage';
-  import clickOutside from '~helpers/actions/clickOutside';
-  import { panel } from '~helpers/stores';
-
-  const hidePanelOnMobile = () => {
-    if (window.outerWidth > 550) return;
-
-    panel.close();
-  };
 </script>
 
-<div class="panel" use:clickOutside={hidePanelOnMobile}>
+<div class="panel">
   <Actions />
   <Graph />
   <Search />

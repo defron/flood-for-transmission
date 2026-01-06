@@ -95,6 +95,7 @@
     grid-template: 'menu content' 100% / 175px 1fr;
     overflow: hidden;
     height: 100%;
+    padding-bottom: env(safe-area-inset-bottom, 0px);
   }
 
   .content {
